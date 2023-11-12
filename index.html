@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Agent</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .info-display {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Personal Information Agent</h1>
+        
+        <div class="form-section">
+            <h2>Customize Your Feed</h2>
+            <label for="interests">Enter your interests:</label>
+            <input type="text" id="interests" name="interests" placeholder="e.g., technology, finance, health">
+
+            <label for="frequency">How often do you want updates?</label>
+            <select id="frequency" name="frequency">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+            </select>
+            
+            <button id="customize-button">Customize</button>
+        </div>
+        
+        <div class="info-display" id="info-display">
+            <!-- Scraped information will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        // Add JavaScript to handle form submission,
+        // send AJAX requests, and update the info-display div.
+    </script>
+</body>
+</html>
