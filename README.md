@@ -11,7 +11,7 @@ This project implements a Personal Information Agent, a web app that serves pers
 ## Prerequisites
 
 Before running this project, you need to have the following installed:
-- Go (version 1.15 or later)
+- Go (version 1.21 or later)
 - Git (for cloning the repository)
 
 ## Installation
